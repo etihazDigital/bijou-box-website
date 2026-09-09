@@ -1,0 +1,345 @@
+THE BIJOU BOX — IMAGE CHECKLIST
+================================
+STATUS: every image below is now filled in. Your product photo collection
+has been matched (by jewelry type and motif — heart, bow, star, pearl,
+shell, coin, etc.) to each of the 39 products and renamed into the exact
+files the site expects, so the shop, cart, wishlist and every product page
+now show real photography instead of placeholders.
+
+A few honest notes on how this was done, so you know what to double-check:
+- Your photo collection had far more earrings/rings/necklaces than exact
+  1-to-1 matches for 39 products x 5 photos (195 slots), so some photos are
+  intentionally reused — as the main photo for one product and as a
+  gallery angle for a similar-styled one, or across 2-4 gallery slots on
+  the same product. This is expected, not a mistake.
+- A handful of products (Evil Eye Charm, and a couple of the stone
+  bracelets/anklets) only had 1-2 strongly matching photos in your
+  collection, so those repeat across all 4 gallery slots for that product.
+  Swap in a fresh photo any time by overwriting that exact file name below.
+- The Shell Necklace Set photos you'd already added were left untouched,
+  just moved out of a stray nested "assets/assets" folder so the site can
+  actually find them (they need to sit directly in this assets folder).
+
+This file still lists every exact file name the site looks for, in case
+you want to swap in a different photo later — drop a new file in using the
+SAME name (same spelling, same extension) and it replaces the old one
+immediately, no code changes needed.
+
+Recommended: export product photos at roughly 1000 x 1250px, .jpg,
+70-80% quality ("Save for Web"), consistent lighting/background across
+the whole catalogue so the shop grid feels cohesive.
+
+
+BRAND / SITE-WIDE
+------------------------------------------------
+logo.png                                 ALREADY ADDED — your round brand badge, in place site-wide (header, mobile menu, footer). Square, transparent PNG, at least 300 x 300px if you ever replace it. If missing, the site shows a text logo instead.
+favicon.png                              ALREADY ADDED — generated from your round logo, 64 x 64px. Browser tab icon.
+hero-home.jpg                            1200 x 1500px Home page hero photo — model wearing layered necklace/rings, portrait orientation.
+collection-buythesea.jpg                 1600 x 900px  "Buy The Sea" featured collection banner (shells, beach, ocean tones).
+category-necklaces.jpg                   900 x 1200px  Shop-by-category tile — necklaces.
+category-earrings.jpg                    900 x 1200px  Shop-by-category tile — earrings/earcuffs.
+category-rings.jpg                       900 x 1200px  Shop-by-category tile — rings.
+category-bracelets.jpg                   900 x 1200px  Shop-by-category tile — bracelets/kada.
+category-anklets.jpg                     900 x 1200px  Shop-by-category tile — anklets.
+category-charms.jpg                      900 x 1200px  Shop-by-category tile — charms/pendants.
+about-story.jpg                          1200 x 1500px Brand-story photo (Home teaser + About page).
+instagram-1.jpg  through  instagram-6.jpg  1080 x 1080px (square)  6 images for the "Follow @thebijoubox.in" grid.
+
+
+PRODUCT PHOTOS (39 products, driven by data.js)
+------------------------------------------------
+Each product needs its LISTING photo (shown on Home/Shop/Search/Cart/
+Wishlist) plus a 4-photo GALLERY for its own product page. All square-ish,
+roughly 1000 x 1000-1250px, clean/light background.
+
+— Shell Necklace Set  (Necklace)
+    assets/product-shell-necklace-set.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-shell-necklace-set-1.jpg          Product page — main gallery image
+    assets/product-shell-necklace-set-2.jpg          Product page — second angle / close-up
+    assets/product-shell-necklace-set-3.jpg          Product page — third angle / flat-lay
+    assets/product-shell-necklace-set-4.jpg          Product page — worn-on-model shot
+
+— Wildflower Necklace  (Necklace)
+    assets/product-wildflower-necklace.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-wildflower-necklace-1.jpg          Product page — main gallery image
+    assets/product-wildflower-necklace-2.jpg          Product page — second angle / close-up
+    assets/product-wildflower-necklace-3.jpg          Product page — third angle / flat-lay
+    assets/product-wildflower-necklace-4.jpg          Product page — worn-on-model shot
+
+— Dual Heart Layered Necklace  (Necklace)
+    assets/product-dual-heart-layered-necklace.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-dual-heart-layered-necklace-1.jpg          Product page — main gallery image
+    assets/product-dual-heart-layered-necklace-2.jpg          Product page — second angle / close-up
+    assets/product-dual-heart-layered-necklace-3.jpg          Product page — third angle / flat-lay
+    assets/product-dual-heart-layered-necklace-4.jpg          Product page — worn-on-model shot
+
+— Tiny Treasure Necklace  (Necklace)
+    assets/product-tiny-treasure-necklace.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-tiny-treasure-necklace-1.jpg          Product page — main gallery image
+    assets/product-tiny-treasure-necklace-2.jpg          Product page — second angle / close-up
+    assets/product-tiny-treasure-necklace-3.jpg          Product page — third angle / flat-lay
+    assets/product-tiny-treasure-necklace-4.jpg          Product page — worn-on-model shot
+
+— Outline Heart Necklace  (Necklace)
+    assets/product-outline-heart-necklace.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-outline-heart-necklace-1.jpg          Product page — main gallery image
+    assets/product-outline-heart-necklace-2.jpg          Product page — second angle / close-up
+    assets/product-outline-heart-necklace-3.jpg          Product page — third angle / flat-lay
+    assets/product-outline-heart-necklace-4.jpg          Product page — worn-on-model shot
+
+— Interlock Star Moon Necklace  (Necklace)
+    assets/product-interlock-star-moon-necklace.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-interlock-star-moon-necklace-1.jpg          Product page — main gallery image
+    assets/product-interlock-star-moon-necklace-2.jpg          Product page — second angle / close-up
+    assets/product-interlock-star-moon-necklace-3.jpg          Product page — third angle / flat-lay
+    assets/product-interlock-star-moon-necklace-4.jpg          Product page — worn-on-model shot
+
+— Sunkissed Coin Necklace  (Necklace)
+    assets/product-sunkissed-coin-necklace.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-sunkissed-coin-necklace-1.jpg          Product page — main gallery image
+    assets/product-sunkissed-coin-necklace-2.jpg          Product page — second angle / close-up
+    assets/product-sunkissed-coin-necklace-3.jpg          Product page — third angle / flat-lay
+    assets/product-sunkissed-coin-necklace-4.jpg          Product page — worn-on-model shot
+
+— Layered Initial Necklace  (Necklace)
+    assets/product-layered-initial-necklace.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-layered-initial-necklace-1.jpg          Product page — main gallery image
+    assets/product-layered-initial-necklace-2.jpg          Product page — second angle / close-up
+    assets/product-layered-initial-necklace-3.jpg          Product page — third angle / flat-lay
+    assets/product-layered-initial-necklace-4.jpg          Product page — worn-on-model shot
+
+— Dainty Everyday Earcuff  (Earring)
+    assets/product-dainty-everyday-earcuff.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-dainty-everyday-earcuff-1.jpg          Product page — main gallery image
+    assets/product-dainty-everyday-earcuff-2.jpg          Product page — second angle / close-up
+    assets/product-dainty-everyday-earcuff-3.jpg          Product page — third angle / flat-lay
+    assets/product-dainty-everyday-earcuff-4.jpg          Product page — worn-on-model shot
+
+— Crystal Dual Layer Earcuff  (Earring)
+    assets/product-crystal-dual-layer-earcuff.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-crystal-dual-layer-earcuff-1.jpg          Product page — main gallery image
+    assets/product-crystal-dual-layer-earcuff-2.jpg          Product page — second angle / close-up
+    assets/product-crystal-dual-layer-earcuff-3.jpg          Product page — third angle / flat-lay
+    assets/product-crystal-dual-layer-earcuff-4.jpg          Product page — worn-on-model shot
+
+— Crystal Dew Earcuff  (Earring)
+    assets/product-crystal-dew-earcuff.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-crystal-dew-earcuff-1.jpg          Product page — main gallery image
+    assets/product-crystal-dew-earcuff-2.jpg          Product page — second angle / close-up
+    assets/product-crystal-dew-earcuff-3.jpg          Product page — third angle / flat-lay
+    assets/product-crystal-dew-earcuff-4.jpg          Product page — worn-on-model shot
+
+— Dual Diamond Earcuff (Single)  (Earring)
+    assets/product-dual-diamond-earcuff-single.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-dual-diamond-earcuff-single-1.jpg          Product page — main gallery image
+    assets/product-dual-diamond-earcuff-single-2.jpg          Product page — second angle / close-up
+    assets/product-dual-diamond-earcuff-single-3.jpg          Product page — third angle / flat-lay
+    assets/product-dual-diamond-earcuff-single-4.jpg          Product page — worn-on-model shot
+
+— Triple Charm Earring  (Earring)
+    assets/product-triple-charm-earring.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-triple-charm-earring-1.jpg          Product page — main gallery image
+    assets/product-triple-charm-earring-2.jpg          Product page — second angle / close-up
+    assets/product-triple-charm-earring-3.jpg          Product page — third angle / flat-lay
+    assets/product-triple-charm-earring-4.jpg          Product page — worn-on-model shot
+
+— Pearl Drop Studs  (Earring)
+    assets/product-pearl-drop-studs.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-pearl-drop-studs-1.jpg          Product page — main gallery image
+    assets/product-pearl-drop-studs-2.jpg          Product page — second angle / close-up
+    assets/product-pearl-drop-studs-3.jpg          Product page — third angle / flat-lay
+    assets/product-pearl-drop-studs-4.jpg          Product page — worn-on-model shot
+
+— Huggie Hoop Set  (Earring)
+    assets/product-huggie-hoop-set.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-huggie-hoop-set-1.jpg          Product page — main gallery image
+    assets/product-huggie-hoop-set-2.jpg          Product page — second angle / close-up
+    assets/product-huggie-hoop-set-3.jpg          Product page — third angle / flat-lay
+    assets/product-huggie-hoop-set-4.jpg          Product page — worn-on-model shot
+
+— Bow Adjustable Ring  (Ring)
+    assets/product-bow-adjustable-ring.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-bow-adjustable-ring-1.jpg          Product page — main gallery image
+    assets/product-bow-adjustable-ring-2.jpg          Product page — second angle / close-up
+    assets/product-bow-adjustable-ring-3.jpg          Product page — third angle / flat-lay
+    assets/product-bow-adjustable-ring-4.jpg          Product page — worn-on-model shot
+
+— Three Layered Emerald Ring  (Ring)
+    assets/product-three-layered-emerald-ring.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-three-layered-emerald-ring-1.jpg          Product page — main gallery image
+    assets/product-three-layered-emerald-ring-2.jpg          Product page — second angle / close-up
+    assets/product-three-layered-emerald-ring-3.jpg          Product page — third angle / flat-lay
+    assets/product-three-layered-emerald-ring-4.jpg          Product page — worn-on-model shot
+
+— Stackable Band Trio  (Ring)
+    assets/product-stackable-band-trio.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-stackable-band-trio-1.jpg          Product page — main gallery image
+    assets/product-stackable-band-trio-2.jpg          Product page — second angle / close-up
+    assets/product-stackable-band-trio-3.jpg          Product page — third angle / flat-lay
+    assets/product-stackable-band-trio-4.jpg          Product page — worn-on-model shot
+
+— Baguette Solitaire Ring  (Ring)
+    assets/product-baguette-solitaire-ring.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-baguette-solitaire-ring-1.jpg          Product page — main gallery image
+    assets/product-baguette-solitaire-ring-2.jpg          Product page — second angle / close-up
+    assets/product-baguette-solitaire-ring-3.jpg          Product page — third angle / flat-lay
+    assets/product-baguette-solitaire-ring-4.jpg          Product page — worn-on-model shot
+
+— Twist Knot Ring  (Ring)
+    assets/product-twist-knot-ring.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-twist-knot-ring-1.jpg          Product page — main gallery image
+    assets/product-twist-knot-ring-2.jpg          Product page — second angle / close-up
+    assets/product-twist-knot-ring-3.jpg          Product page — third angle / flat-lay
+    assets/product-twist-knot-ring-4.jpg          Product page — worn-on-model shot
+
+— Adjustable Pearl Ring  (Ring)
+    assets/product-adjustable-pearl-ring.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-adjustable-pearl-ring-1.jpg          Product page — main gallery image
+    assets/product-adjustable-pearl-ring-2.jpg          Product page — second angle / close-up
+    assets/product-adjustable-pearl-ring-3.jpg          Product page — third angle / flat-lay
+    assets/product-adjustable-pearl-ring-4.jpg          Product page — worn-on-model shot
+
+— Eclipse Charm Cuff  (Bracelet)
+    assets/product-eclipse-charm-cuff.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-eclipse-charm-cuff-1.jpg          Product page — main gallery image
+    assets/product-eclipse-charm-cuff-2.jpg          Product page — second angle / close-up
+    assets/product-eclipse-charm-cuff-3.jpg          Product page — third angle / flat-lay
+    assets/product-eclipse-charm-cuff-4.jpg          Product page — worn-on-model shot
+
+— Everbloom Bracelet  (Bracelet)
+    assets/product-everbloom-bracelet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-everbloom-bracelet-1.jpg          Product page — main gallery image
+    assets/product-everbloom-bracelet-2.jpg          Product page — second angle / close-up
+    assets/product-everbloom-bracelet-3.jpg          Product page — third angle / flat-lay
+    assets/product-everbloom-bracelet-4.jpg          Product page — worn-on-model shot
+
+— Desert Stone Bracelet  (Bracelet)
+    assets/product-desert-stone-bracelet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-desert-stone-bracelet-1.jpg          Product page — main gallery image
+    assets/product-desert-stone-bracelet-2.jpg          Product page — second angle / close-up
+    assets/product-desert-stone-bracelet-3.jpg          Product page — third angle / flat-lay
+    assets/product-desert-stone-bracelet-4.jpg          Product page — worn-on-model shot
+
+— Marina Stone Bracelet  (Bracelet)
+    assets/product-marina-stone-bracelet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-marina-stone-bracelet-1.jpg          Product page — main gallery image
+    assets/product-marina-stone-bracelet-2.jpg          Product page — second angle / close-up
+    assets/product-marina-stone-bracelet-3.jpg          Product page — third angle / flat-lay
+    assets/product-marina-stone-bracelet-4.jpg          Product page — worn-on-model shot
+
+— Tennis Sparkle Bracelet  (Bracelet)
+    assets/product-tennis-sparkle-bracelet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-tennis-sparkle-bracelet-1.jpg          Product page — main gallery image
+    assets/product-tennis-sparkle-bracelet-2.jpg          Product page — second angle / close-up
+    assets/product-tennis-sparkle-bracelet-3.jpg          Product page — third angle / flat-lay
+    assets/product-tennis-sparkle-bracelet-4.jpg          Product page — worn-on-model shot
+
+— Beaded Charm Bracelet  (Bracelet)
+    assets/product-beaded-charm-bracelet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-beaded-charm-bracelet-1.jpg          Product page — main gallery image
+    assets/product-beaded-charm-bracelet-2.jpg          Product page — second angle / close-up
+    assets/product-beaded-charm-bracelet-3.jpg          Product page — third angle / flat-lay
+    assets/product-beaded-charm-bracelet-4.jpg          Product page — worn-on-model shot
+
+— Classic Herringbone Kada  (Bracelet)
+    assets/product-classic-herringbone-kada.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-classic-herringbone-kada-1.jpg          Product page — main gallery image
+    assets/product-classic-herringbone-kada-2.jpg          Product page — second angle / close-up
+    assets/product-classic-herringbone-kada-3.jpg          Product page — third angle / flat-lay
+    assets/product-classic-herringbone-kada-4.jpg          Product page — worn-on-model shot
+
+— Delicate Chain Anklet  (Anklet)
+    assets/product-delicate-chain-anklet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-delicate-chain-anklet-1.jpg          Product page — main gallery image
+    assets/product-delicate-chain-anklet-2.jpg          Product page — second angle / close-up
+    assets/product-delicate-chain-anklet-3.jpg          Product page — third angle / flat-lay
+    assets/product-delicate-chain-anklet-4.jpg          Product page — worn-on-model shot
+
+— Shell Charm Anklet  (Anklet)
+    assets/product-shell-charm-anklet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-shell-charm-anklet-1.jpg          Product page — main gallery image
+    assets/product-shell-charm-anklet-2.jpg          Product page — second angle / close-up
+    assets/product-shell-charm-anklet-3.jpg          Product page — third angle / flat-lay
+    assets/product-shell-charm-anklet-4.jpg          Product page — worn-on-model shot
+
+— Beaded Boho Anklet  (Anklet)
+    assets/product-beaded-boho-anklet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-beaded-boho-anklet-1.jpg          Product page — main gallery image
+    assets/product-beaded-boho-anklet-2.jpg          Product page — second angle / close-up
+    assets/product-beaded-boho-anklet-3.jpg          Product page — third angle / flat-lay
+    assets/product-beaded-boho-anklet-4.jpg          Product page — worn-on-model shot
+
+— Star Charm Anklet  (Anklet)
+    assets/product-star-charm-anklet.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-star-charm-anklet-1.jpg          Product page — main gallery image
+    assets/product-star-charm-anklet-2.jpg          Product page — second angle / close-up
+    assets/product-star-charm-anklet-3.jpg          Product page — third angle / flat-lay
+    assets/product-star-charm-anklet-4.jpg          Product page — worn-on-model shot
+
+— Emerald Heart Charm  (Charm)
+    assets/product-emerald-heart-charm.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-emerald-heart-charm-1.jpg          Product page — main gallery image
+    assets/product-emerald-heart-charm-2.jpg          Product page — second angle / close-up
+    assets/product-emerald-heart-charm-3.jpg          Product page — third angle / flat-lay
+    assets/product-emerald-heart-charm-4.jpg          Product page — worn-on-model shot
+
+— Crystal Heart Charm  (Charm)
+    assets/product-crystal-heart-charm.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-crystal-heart-charm-1.jpg          Product page — main gallery image
+    assets/product-crystal-heart-charm-2.jpg          Product page — second angle / close-up
+    assets/product-crystal-heart-charm-3.jpg          Product page — third angle / flat-lay
+    assets/product-crystal-heart-charm-4.jpg          Product page — worn-on-model shot
+
+— Hot Air Balloon Charm  (Charm)
+    assets/product-hot-air-balloon-charm.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-hot-air-balloon-charm-1.jpg          Product page — main gallery image
+    assets/product-hot-air-balloon-charm-2.jpg          Product page — second angle / close-up
+    assets/product-hot-air-balloon-charm-3.jpg          Product page — third angle / flat-lay
+    assets/product-hot-air-balloon-charm-4.jpg          Product page — worn-on-model shot
+
+— Initial Letter Charm  (Charm)
+    assets/product-initial-letter-charm.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-initial-letter-charm-1.jpg          Product page — main gallery image
+    assets/product-initial-letter-charm-2.jpg          Product page — second angle / close-up
+    assets/product-initial-letter-charm-3.jpg          Product page — third angle / flat-lay
+    assets/product-initial-letter-charm-4.jpg          Product page — worn-on-model shot
+
+— Evil Eye Charm  (Charm)
+    assets/product-evil-eye-charm.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-evil-eye-charm-1.jpg          Product page — main gallery image
+    assets/product-evil-eye-charm-2.jpg          Product page — second angle / close-up
+    assets/product-evil-eye-charm-3.jpg          Product page — third angle / flat-lay
+    assets/product-evil-eye-charm-4.jpg          Product page — worn-on-model shot
+
+— Butterfly Charm  (Charm)
+    assets/product-butterfly-charm.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-butterfly-charm-1.jpg          Product page — main gallery image
+    assets/product-butterfly-charm-2.jpg          Product page — second angle / close-up
+    assets/product-butterfly-charm-3.jpg          Product page — third angle / flat-lay
+    assets/product-butterfly-charm-4.jpg          Product page — worn-on-model shot
+
+— Sun & Moon Charm  (Charm)
+    assets/product-sun-and-moon-charm.jpg            Listing photo (Home / Shop / Search / Cart / Wishlist)
+    assets/product-sun-and-moon-charm-1.jpg          Product page — main gallery image
+    assets/product-sun-and-moon-charm-2.jpg          Product page — second angle / close-up
+    assets/product-sun-and-moon-charm-3.jpg          Product page — third angle / flat-lay
+    assets/product-sun-and-moon-charm-4.jpg          Product page — worn-on-model shot
+
+
+HOW TO ADD, EDIT OR REMOVE A PRODUCT
+------------------------------------------------
+Every product on the site — its name, price, category, description,
+stock, and which images it uses — comes from ONE place: data.js.
+Open data.js in any text editor and you'll see a list of entries like:
+
+  { "id": "shell-necklace-set", "name": "Shell Necklace Set",
+    "category": "necklaces", "price": 2799, "mrp": 3299, ... }
+
+To add a product: copy one whole { ... } entry, paste it as a new item
+in the list, give it a new unique "id" (letters/numbers/hyphens only —
+this becomes its image file names and its URL, product.html?id=your-id),
+and update the name/price/category/description. Then add its 5 images
+(1 listing + 4 gallery) to /assets following the naming pattern above.
+To remove a product, delete its whole { ... } entry. No other file
+needs to change — Home, Shop, Search, Cart and Wishlist all read from
+data.js automatically.
